@@ -3,6 +3,6 @@ class cu:
         self.ct=ct
     def __getitem__(self,cr):
         return self.ct[cr]
-cc=cu(["1","2","3","4","5","6","7","8"])
+cc=cu(["a","b","c","d","e","f","g"])
 for i in cc:
     print(i)
